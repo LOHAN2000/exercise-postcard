@@ -1,0 +1,66 @@
+* {
+	font-family: "Playpen Sans", cursive;
+}
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 340px;
+	margin: 0%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+
+	font-size: 15px;
+	border: none;
+	border-bottom: 1px solid #bbbbbb; /* Color de la línea (puedes cambiar #000 por el color que desees) */
+	margin-bottom: 10px; /* Ajusta según sea necesario para dar espacio entre los inputs */
+	padding-bottom: 5px; /* Ajusta según sea necesario para dar espacio entre la línea y el texto del input */
+}
+
+p {
+	font-size: 14.5px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(185, 185, 185);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: rgb(167, 167, 167);
+}
